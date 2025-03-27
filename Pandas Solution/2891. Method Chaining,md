@@ -1,0 +1,89 @@
+---
+
+# **2891. Method Chaining**  
+
+## **Problem Statement**  
+Write a solution to list the names of animals that weigh strictly more than 100 kilograms.  
+
+Return the animals sorted by weight in **descending order**.  
+
+## **DataFrame Schema**  
+
+| Column Name | Type   |  
+|-------------|--------|  
+| name        | object |  
+| species     | object |  
+| age         | int    |  
+| weight      | int    |  
+
+## **Example 1**  
+
+### **Input:**  
+```plaintext
++----------+---------+-----+--------+
+| name     | species | age | weight |
++----------+---------+-----+--------+
+| Tatiana  | Snake   | 98  | 464    |
+| Khaled   | Giraffe | 50  | 41     |
+| Alex     | Leopard | 6   | 328    |
+| Jonathan | Monkey  | 45  | 463    |
+| Stefan   | Bear    | 100 | 50     |
+| Tommy    | Panda   | 26  | 349    |
++----------+---------+-----+--------+
+```  
+
+### **Output:**  
+```plaintext
++----------+
+| name     |
++----------+
+| Tatiana  |
+| Jonathan |
+| Tommy    |
+| Alex     |
++----------+
+```  
+
+### **Explanation:**  
+- Only animals weighing **more than 100 kg** are included.  
+- The results are sorted in **descending order of weight**.  
+
+## **Constraints**  
+- The `name`, `species`, `age`, and `weight` columns are always **non-null**.  
+- The `weight` column contains **positive integers**.  
+
+## **Discussion**  
+- **Filtering**: We filter out rows where `weight > 100`.  
+- **Sorting**: The results are **sorted in descending order** of `weight`.  
+- **Method Chaining**: The task should be solved in **one line of code** using Pandas method chaining.  
+
+---
+
+## **🔥 One-Line Solution in Pandas**  
+```python
+animals[animals["weight"] > 100].sort_values("weight", ascending=False)[["name"]]
+```
+
+---
+
+## 🎯 **How to Contribute**  
+1. **Fork** the repository.  
+2. Implement the solution and **test** it.  
+3. Create a **pull request** with an explanation.  
+
+## 📂 **File Structure**  
+```rb
+/solutions  
+   ├── method_chaining.py  
+   ├── README.md  
+```  
+
+## 🔥 **Want to Participate?**  
+- Follow discussions on **GitHub**.  
+- Improve existing solutions.  
+
+## 🔗 **Useful Links**  
+- [Pandas Documentation](https://pandas.pydata.org/docs/)  
+- [Python Data Manipulation Guide](https://realpython.com/pandas-dataframe/)  
+
+## 💡 **Let's learn, code, and grow together! 🚀**  
