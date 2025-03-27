@@ -1,0 +1,5 @@
+*.py lingluist-deactable=true
+*.py lingluist-language=pandas
+
+*.html lingluist-vendored
+*.css lingluist-vendored
