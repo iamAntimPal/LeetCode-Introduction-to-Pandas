@@ -15,10 +15,11 @@ This repository contains solutions to various **LeetCode** problems, where we us
 1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [Pandas Basics](#pandas-basics)
-4. [LeetCode Problems](#leetcode-problems)
+4. [Pandas CheetSheet](#pandas-cheetSheet)
+5. [LeetCode Problems](#leetcode-problems)
     - Problem 1: [Problem Title](#problem-1)
     - Problem 2: [Problem Title](#problem-2)
-5. [Useful Links](#useful-links)
+6. [Useful Links](#useful-links)
 
 ---
 
@@ -141,6 +142,11 @@ df = pd.DataFrame(data)
   df1.merge(df2, on='column_name')
   ```
 
+---
+# 🧩 Pandas CheetSheet
+
+<img src="Pandas CheetSheet\Pandas_Cheat_Sheet-1,Pandas_Cheat_Sheet-2\Pandas_Cheat_Sheet-1.svg" alt="cheet sheet">
+<img src="Pandas CheetSheet\Pandas_Cheat_Sheet-1,Pandas_Cheat_Sheet-2\Pandas_Cheat_Sheet-2.svg">
 ---
 
 ## 🧩 LeetCode Problems
