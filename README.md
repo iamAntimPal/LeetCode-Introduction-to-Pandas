@@ -177,4 +177,3 @@ Feel free to explore the other problems and their solutions in the `solutions/` 
 - [Python Documentation](https://docs.python.org/3/)
 - [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
 - [Kaggle: Pandas Tutorials](https://www.kaggle.com/learn/pandas)
-```
