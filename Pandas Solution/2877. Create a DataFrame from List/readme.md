@@ -5,11 +5,6 @@ edit_url: Link
 language: 
     - Python3
     - Pandas
-    - MySQL
-    - PostgreSQL
-    - SQLite
-    - Oracle
-    - SQL Server
 tags:
     - Pandas
 ---
