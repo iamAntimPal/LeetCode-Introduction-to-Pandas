@@ -1,7 +1,7 @@
 ---
 comments: true
 difficulty: Easy
-edit_url:[2877. Create a DataFrame from List](https://github.com/iamAntimPal/LeetCode-Introduction-to-Pandas/blob/main/Pandas%20Solution/2877.%20Create%20a%20DataFrame%20from%20List/readme.md)
+edit_url: [2877. Create a DataFrame from List](https://github.com/iamAntimPal/LeetCode-Introduction-to-Pandas/blob/main/Pandas%20Solution/2877.%20Create%20a%20DataFrame%20from%20List/readme.md)
 language: 
     - Python3
     - Pandas
