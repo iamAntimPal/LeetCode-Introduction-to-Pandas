@@ -4,35 +4,12 @@ difficulty: Easy
 edit_url: Link
 language: 
     - Python3
-    - Go
-    - JavaScript
-    - PHP
-    - C++
-    - C
-    - Java
-    - Scala
-    - Ruby
-    - Swift
-    - Haskell
-    - Lua
-    - R
-    - TypeScript
-    - SQL
-    - Rust
-    - Kotlin
-    - Dart
-    - Swift
-    - Go
-    - Scala
-    - Python3
-    - JavaScript
-    - PHP
-    - C++
-    - C
-    - Java
-    - Scala
-    - Ruby
-    - Swift
+    - Pandas
+    - MySQL
+    - PostgreSQL
+    - SQLite
+    - Oracle
+    - SQL Server
 tags:
     - Pandas
 ---
