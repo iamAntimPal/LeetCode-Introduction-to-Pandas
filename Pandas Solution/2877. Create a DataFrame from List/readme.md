@@ -1,7 +1,6 @@
 ---
 comments: true
 difficulty: Easy
-edit_url: Link
 language: 
     - Python3
     - Pandas
